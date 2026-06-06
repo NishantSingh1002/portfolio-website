@@ -6,6 +6,8 @@ import {
   FaLinux,
   FaGitAlt,
   FaGithub,
+  FaJenkins,
+  FaTerminal,
 } from "react-icons/fa";
 
 import {
@@ -13,72 +15,81 @@ import {
   SiFlask,
   SiPostgresql,
   SiMysql,
-  SiCisco,
+  SiRedis,
   SiSelenium,
+  SiPydantic,
+  SiSqlalchemy,
 } from "react-icons/si";
 
 function Skills() {
-  const skills = [
-    { icon: <FaPython />, name: "Python" },
-    { icon: <SiFastapi />, name: "FastAPI" },
-    { icon: <SiFlask />, name: "Flask" },
-    { icon: <SiPostgresql />, name: "PostgreSQL" },
-    { icon: <SiMysql />, name: "MySQL" },
-
-    { icon: <SiCisco />, name: "Cisco SD-WAN" },
-    { icon: <FaLinux />, name: "Linux" },
-    { icon: <FaDocker />, name: "Docker" },
-    { icon: <FaGitAlt />, name: "Git" },
-    { icon: <FaGithub />, name: "GitHub" },
-
-    { icon: <SiSelenium />, name: "Selenium" },
-
+  const categories = [
     {
-      icon: <span className="custom-icon">⚡</span>,
-      name: "REST APIs",
+      title: "Languages",
+      skills: [
+        { name: "Python", icon: <FaPython /> },
+        { name: "SQL", icon: <SiMysql /> },
+        { name: "Bash", icon: <FaTerminal /> },
+      ],
     },
 
     {
-      icon: <span className="custom-icon">🤖</span>,
-      name: "Automation",
+      title: "Backend",
+      skills: [
+        { name: "FastAPI", icon: <SiFastapi /> },
+        { name: "Flask", icon: <SiFlask /> },
+        { name: "SQLAlchemy", icon: <SiSqlalchemy /> },
+        { name: "Pydantic", icon: <SiPydantic /> },
+      ],
     },
 
     {
-      icon: <span className="custom-icon">🌐</span>,
-      name: "Networking",
+      title: "Databases",
+      skills: [
+        { name: "PostgreSQL", icon: <SiPostgresql /> },
+        { name: "MySQL", icon: <SiMysql /> },
+        { name: "Redis", icon: <SiRedis /> },
+      ],
     },
 
-    {
-      icon: <span className="custom-icon">🔐</span>,
-      name: "Paramiko",
-    },
 
     {
-      icon: <span className="custom-icon">🎭</span>,
-      name: "Playwright",
+      title: "DevOps & Tools",
+      skills: [
+        { name: "Linux", icon: <FaLinux /> },
+        { name: "Docker", icon: <FaDocker /> },
+        { name: "Git", icon: <FaGitAlt /> },
+        { name: "GitHub", icon: <FaGithub /> },
+        { name: "Jenkins", icon: <FaJenkins /> },
+        { name: "Selenium", icon: <SiSelenium /> },
+      ],
     },
   ];
 
   return (
     <section id="skills" className="skills">
       <div className="skills-header">
-
-        <span className="section-label">
-          TECH STACK
-        </span>
+        <span className="section-label">TECH STACK</span>
 
         <h2>Technologies I Work With</h2>
 
+        <p>
+          A curated toolkit of technologies I use to build, automate, and solve real-world problems.
+        </p>
       </div>
 
-      <div className="skills-grid">
-        {skills.map((skill) => (
-          <div className="skill-card" key={skill.name}>
-            <div className="skill-icon">
-              {skill.icon}
-            </div>
+      <div className="skill-categories">
+        {categories.map((category) => (
+          <div className="category-card" key={category.title}>
+            <h3>{category.title}</h3>
 
-            <span>{skill.name}</span>
+            <div className="category-skills">
+              {category.skills.map((skill) => (
+                <div className="skill-pill" key={skill.name}>
+                  <span className="skill-icon">{skill.icon}</span>
+                  <span>{skill.name}</span>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
