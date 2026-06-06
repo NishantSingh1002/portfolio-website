@@ -11,7 +11,7 @@ function Contact() {
         and Network Automation opportunities.
       </p>
 
-      <div className="contact-links">
+      <div className="contacts-links">
         <a
           href="mailto:nishantsingh2608@yahoo.com"
           target="_blank"
