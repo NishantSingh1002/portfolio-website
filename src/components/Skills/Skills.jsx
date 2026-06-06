@@ -1,62 +1,90 @@
 import "./Skills.css";
 
+import {
+  FaPython,
+  FaDocker,
+  FaLinux,
+  FaGitAlt,
+  FaGithub,
+} from "react-icons/fa";
+
+import {
+  SiFastapi,
+  SiFlask,
+  SiPostgresql,
+  SiMysql,
+  SiCisco,
+  SiSelenium,
+} from "react-icons/si";
+
 function Skills() {
-  const skillGroups = [
+  const skills = [
+    { icon: <FaPython />, name: "Python" },
+    { icon: <SiFastapi />, name: "FastAPI" },
+    { icon: <SiFlask />, name: "Flask" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <SiMysql />, name: "MySQL" },
+
+    { icon: <SiCisco />, name: "Cisco SD-WAN" },
+    { icon: <FaLinux />, name: "Linux" },
+    { icon: <FaDocker />, name: "Docker" },
+    { icon: <FaGitAlt />, name: "Git" },
+    { icon: <FaGithub />, name: "GitHub" },
+
+    { icon: <SiSelenium />, name: "Selenium" },
+
     {
-      title: "Backend",
-      skills: [
-        "Python",
-        "FastAPI",
-        "Flask",
-        "REST APIs",
-        "PostgreSQL",
-        "MySQL",
-      ],
+      icon: <span className="custom-icon">⚡</span>,
+      name: "REST APIs",
     },
+
     {
-      title: "Automation",
-      skills: [
-        "Playwright",
-        "Paramiko",
-        "Selenium",
-        "Network Automation",
-      ],
+      icon: <span className="custom-icon">🤖</span>,
+      name: "Automation",
     },
+
     {
-      title: "Networking",
-      skills: [
-        "Cisco SD-WAN",
-        "Routing",
-        "Switching",
-        "TCP/IP",
-        "BGP",
-      ],
+      icon: <span className="custom-icon">🌐</span>,
+      name: "Networking",
     },
+
     {
-      title: "DevOps & Tools",
-      skills: [
-        "Linux",
-        "Git",
-        "Docker",
-        "GitHub",
-      ],
+      icon: <span className="custom-icon">🔐</span>,
+      name: "Paramiko",
+    },
+
+    {
+      icon: <span className="custom-icon">🎭</span>,
+      name: "Playwright",
     },
   ];
 
   return (
     <section id="skills" className="skills">
-      <h2>Skills & Technologies</h2>
+      <div className="skills-header">
+
+        <span className="section-label">
+          TECH STACK
+        </span>
+
+        <h2>Technologies I Work With</h2>
+
+        <p>
+          Building backend services, automation platforms,
+          and network infrastructure solutions using modern tools
+          and technologies.
+        </p>
+
+      </div>
 
       <div className="skills-grid">
-        {skillGroups.map((group) => (
-          <div className="skill-card" key={group.title}>
-            <h3>{group.title}</h3>
-
-            <div className="skill-tags">
-              {group.skills.map((skill) => (
-                <span key={skill}>{skill}</span>
-              ))}
+        {skills.map((skill) => (
+          <div className="skill-card" key={skill.name}>
+            <div className="skill-icon">
+              {skill.icon}
             </div>
+
+            <span>{skill.name}</span>
           </div>
         ))}
       </div>
