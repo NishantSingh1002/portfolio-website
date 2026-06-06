@@ -1,0 +1,32 @@
+.stats {
+  padding: 80px 8%;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.stat-card {
+  background: #111;
+  border: 1px solid #222;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.stat-card h2 {
+  font-size: 48px;
+  color: #3b82f6;
+}
+
+.stat-card p {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
