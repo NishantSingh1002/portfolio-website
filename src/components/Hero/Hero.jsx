@@ -4,82 +4,54 @@ function Hero() {
   return (
     <section id="home" className="hero">
 
-      <div className="hero-content">
+      <div className="hero-grid">
 
-        <span className="hero-tag">
-          BACKEND • AUTOMATION • INFRASTRUCTURE
-        </span>
+        <div className="hero-content">
 
-        <h1>
-          Nishant Singh
-        </h1>
+          <span className="hero-tag">
+            PYTHON • AUTOMATION • NETWORKING
+          </span>
 
-        <h2>
-          Automating what shouldn't be manual.
-          <br />
-          Building what shouldn't be complicated.
-        </h2>
+          <h1>
+            Automating what
+            <span className="gradient-blue"> shouldn't be manual.</span>
 
-        <p>
-          I build backend services, automation platforms, and
-          infrastructure solutions that improve reliability,
-          simplify operations, and reduce engineering effort.
-        </p>
+            <br />
 
-        <div className="hero-nav-buttons">
+            Building what
+            <span className="gradient-purple"> shouldn't be complicated.</span>
+          </h1>
 
-          <a href="#projects">
-            View Projects
-          </a>
+          <p>
+            From network automation to backend services,
+            I build practical solutions that simplify operations,
+            improve reliability, and help teams work more efficiently.
+          </p>
 
-          <a href="#experience">
-            Experience
-          </a>
+          <div className="hero-buttons">
 
-          <a href="#skills">
-            Skills
-          </a>
+            <a href="#projects" className="primary-btn">
+              Explore Projects →
+            </a>
 
-        </div>
+            <a href="#contacts" className="secondary-btn">
+              Contact →
+            </a>
 
-        <div className="hero-metrics">
-
-          <div className="metric">
-            <h3>2+</h3>
-            <span>Years Experience</span>
-          </div>
-
-          <div className="metric">
-            <h3>20+</h3>
-            <span>Automation Workflows</span>
-          </div>
-
-          <div className="metric">
-            <h3>SD-WAN</h3>
-            <span>Infrastructure Focus</span>
-          </div>
-
-          <div className="metric">
-            <h3>Backend</h3>
-            <span>Python & APIs</span>
           </div>
 
         </div>
-
-      </div>
-
-      <div className="hero-image-section">
 
         <div className="hero-image-wrapper">
 
-          <img
-            src="/profile.png"
-            alt="Nishant Singh"
-            className="hero-image"
-          />
+          <div className="hero-image-card">
 
-          <div className="floating-badge">
-            🚀 Building Automation Platforms
+            <img
+              src="/profile.png"
+              alt="Nishant Singh"
+              className="hero-image"
+            />
+
           </div>
 
         </div>
