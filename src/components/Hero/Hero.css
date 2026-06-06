@@ -23,19 +23,19 @@
     background:
         radial-gradient(
             circle at 20% 20%,
-            rgba(6,182,212,.18),
+            rgba(168,85,247,.20)
             transparent 35%
         ),
 
         radial-gradient(
             circle at 80% 20%,
-            rgba(139,92,246,.15),
+           rgba(192,132,252,.18)
             transparent 35%
         ),
 
         radial-gradient(
             circle at 50% 80%,
-            rgba(59,130,246,.08),
+            rgba(124,58,237,.10)
             transparent 45%
         );
 
@@ -87,7 +87,7 @@
 }
 
 .hero-tag {
-    color: #38bdf8;
+    color: #c084fc;
 
     letter-spacing: 3px;
 
@@ -109,7 +109,7 @@
 }
 
 .gradient-blue {
-    color: #38bdf8;
+    color: #c084fc;
 }
 
 .gradient-purple {
@@ -141,7 +141,7 @@
 
     background: linear-gradient(
         135deg,
-        #38bdf8,
+        #a855f7,
         #06b6d4
     );
 
@@ -160,7 +160,7 @@
     transform: translateY(-4px);
 
     box-shadow:
-        0 15px 40px rgba(56,189,248,.35);
+        0 15px 40px rgba(168,85,247,.35);
 }
 
 .secondary-btn {
@@ -172,7 +172,7 @@
 
     border-radius: 16px;
 
-    border: 1px solid rgba(139,92,246,.5);
+    border: 1px solid rgba(168,85,247,.5);
 
     background: rgba(255,255,255,.02);
 
@@ -182,7 +182,7 @@
 .secondary-btn:hover {
     transform: translateY(-4px);
 
-    border-color: #8b5cf6;
+    border-color: #a855f7;
 }
 
 /* Image */
@@ -202,12 +202,13 @@
     background:
         linear-gradient(
             135deg,
-            #38bdf8,
-            #8b5cf6
+               #c084fc,
+               #8b5cf6, 
+               #7c3aed
         );
 
     box-shadow:
-        0 20px 80px rgba(56,189,248,.15);
+    0 20px 80px rgba(139,92,246,.25);
 }
 
 .hero-image {
