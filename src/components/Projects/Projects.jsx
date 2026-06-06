@@ -7,7 +7,7 @@ function Projects() {
       description:
         "Automated pre and post-upgrade validation platform for Cisco SD-WAN environments using Python, Flask, and Cisco vManage APIs.",
 
-      image: "/project-placeholder.png",
+      image: "/sdwan-validation-dashboard.png",
 
       tags: [
         "Python",
@@ -32,7 +32,7 @@ function Projects() {
       description:
         "Automation framework for accessing network devices through multiple jump hosts with centralized logging and command execution.",
 
-      image: "/project-placeholder.png",
+      image: "/multihop-terminal.png",
 
       tags: [
         "Python",
