@@ -22,8 +22,8 @@ function Projects() {
         "Flask Dashboard",
       ],
 
-      github: "#",
-      details: "#",
+      github: "https://github.com/NishantSingh1002/Cisco-SD-WAN-Pre-Post-Upgrade-Validation-Platform",
+      details: "https://github.com/NishantSingh1002/Cisco-SD-WAN-Pre-Post-Upgrade-Validation-Platform/blob/main/README.md",
     },
 
     {
@@ -47,8 +47,8 @@ function Projects() {
         "Centralized Logging",
       ],
 
-      github: "#",
-      details: "#",
+      github: "https://github.com/NishantSingh1002/Multi-Hop-SSH-Automation-Framework",
+      details: "https://github.com/NishantSingh1002/Multi-Hop-SSH-Automation-Framework/blob/main/README.md",
     },
   ];
 
