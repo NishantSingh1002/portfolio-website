@@ -3,7 +3,7 @@ import "./Stats.css";
 function Stats() {
   const stats = [
     {
-      number: "2+",
+      number: "2",
       label: "Years Experience",
     },
     {
@@ -11,12 +11,12 @@ function Stats() {
       label: "Automation Workflows",
     },
     {
-      number: "65%",
-      label: "Manual Effort Reduction",
+      number: "SD-WAN",
+      label: "Infrastructure Focus",
     },
     {
-      number: "100%",
-      label: "Python Driven",
+      number: "Python",
+      label: "Backend & Automation",
     },
   ];
 
