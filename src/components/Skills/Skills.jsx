@@ -69,12 +69,6 @@ function Skills() {
 
         <h2>Technologies I Work With</h2>
 
-        <p>
-          Building backend services, automation platforms,
-          and network infrastructure solutions using modern tools
-          and technologies.
-        </p>
-
       </div>
 
       <div className="skills-grid">
