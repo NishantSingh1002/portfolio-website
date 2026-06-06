@@ -2,11 +2,11 @@ import "./Hero.css";
 
 function Hero() {
   return (
-    <section className="hero" id="home">
+    <section id="home" className="hero">
 
-      <div className="hero-left">
+      <div className="hero-content">
 
-        <span className="hero-label">
+        <span className="hero-tag">
           BACKEND • AUTOMATION • INFRASTRUCTURE
         </span>
 
@@ -21,47 +21,56 @@ function Hero() {
         </h2>
 
         <p>
-          I build backend services, automation platforms,
-          and infrastructure solutions that improve reliability,
-          reduce operational effort, and simplify complex workflows.
+          I build backend services, automation platforms, and
+          infrastructure solutions that improve reliability,
+          simplify operations, and reduce engineering effort.
         </p>
 
-        <div className="hero-buttons">
+        <div className="hero-nav-buttons">
 
-          <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noreferrer"
-            className="btn-primary"
-          >
-            Resume
+          <a href="#projects">
+            View Projects
           </a>
 
-          <a
-            href="https://github.com/NishantSingh1002"
-            target="_blank"
-            rel="noreferrer"
-            className="btn-secondary"
-          >
-            GitHub
+          <a href="#experience">
+            Experience
           </a>
 
-          <a
-            href="https://www.linkedin.com/in/nishant-singh-backend-dev/"
-            target="_blank"
-            rel="noreferrer"
-            className="btn-secondary"
-          >
-            LinkedIn
+          <a href="#skills">
+            Skills
           </a>
+
+        </div>
+
+        <div className="hero-metrics">
+
+          <div className="metric">
+            <h3>2+</h3>
+            <span>Years Experience</span>
+          </div>
+
+          <div className="metric">
+            <h3>20+</h3>
+            <span>Automation Workflows</span>
+          </div>
+
+          <div className="metric">
+            <h3>SD-WAN</h3>
+            <span>Infrastructure Focus</span>
+          </div>
+
+          <div className="metric">
+            <h3>Backend</h3>
+            <span>Python & APIs</span>
+          </div>
 
         </div>
 
       </div>
 
-      <div className="hero-right">
+      <div className="hero-image-section">
 
-        <div className="hero-card">
+        <div className="hero-image-wrapper">
 
           <img
             src="/profile.png"
@@ -69,38 +78,8 @@ function Hero() {
             className="hero-image"
           />
 
-          <div className="hero-card-content">
-
-            <h3>Nishant Singh</h3>
-
-            <p className="hero-role">
-              Backend & Infrastructure Automation Engineer
-            </p>
-
-            <div className="hero-highlights">
-
-              <div className="highlight">
-                <span>🚀</span>
-                <p>2+ Years Experience</p>
-              </div>
-
-              <div className="highlight">
-                <span>⚙️</span>
-                <p>Automation Platforms</p>
-              </div>
-
-              <div className="highlight">
-                <span>🌐</span>
-                <p>Network Automation</p>
-              </div>
-
-              <div className="highlight">
-                <span>🇮🇳</span>
-                <p>India</p>
-              </div>
-
-            </div>
-
+          <div className="floating-badge">
+            🚀 Building Automation Platforms
           </div>
 
         </div>
