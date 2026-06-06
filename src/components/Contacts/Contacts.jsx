@@ -1,8 +1,8 @@
-import "./Contact.css";
+import "./Contacts.css";
 
 function Contact() {
   return (
-    <section id="contact" className="contact">
+    <section id="contacts" className="contacts">
       <h2>Let's Connect</h2>
 
       <p>
