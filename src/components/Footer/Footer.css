@@ -1,0 +1,18 @@
+.footer {
+  border-top: 1px solid #222;
+
+  padding: 30px 8%;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
