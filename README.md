@@ -1,16 +1,71 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website showcasing projects, technical skills, and professional experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio serves as a central place to highlight my work, background, and technical capabilities. It includes featured projects, experience, skills, and contact information in a clean and responsive interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Responsive design for desktop and mobile devices
+* Modern user interface with custom styling
+* Project showcase section
+* Technical skills overview
+* Professional experience timeline
+* Contact and social links
+* Fast and optimized performance
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript
+* CSS
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is deployed using Vercel.
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── assets/
+├── App.jsx
+└── main.jsx
+
+public/
+```
+
+## License
+
+This project is available for personal reference and learning purposes.
