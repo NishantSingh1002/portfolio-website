@@ -48,7 +48,7 @@ function Projects() {
       ],
 
       github: "https://github.com/NishantSingh1002/Multi-Hop-SSH-Automation-Framework",
-      details: "https://github.com/NishantSingh1002/Multi-Hop-SSH-Automation-Framework/blob/main/README.md",
+      details: "https://github.com/NishantSingh1002/Multi-Hop-SSH-Automation-Framework/blob/main/readme.md",
     },
   ];
 
